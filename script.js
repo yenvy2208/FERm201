@@ -14,7 +14,11 @@ $("#carouselButton").click(function(){
         $("#carouselButton").children("span").addClass('fa-pause');                    
     }
 });
-
-
+document.getElementById('reserveTableButton').addEventListener('click', function(){
+    $('#reserveTableModal').modal('toggle')
+});
+document.getElementById('loginButton').addEventListener('click', function(){
+    $('#loginModal').modal('toggle')
+});
 
 
